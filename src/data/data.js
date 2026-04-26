@@ -1,7 +1,7 @@
 export const subjectMeta = {
-  maths: { name: "Mathematics", icon: "➗" },
-  science: { name: "Science", icon: "🔬" },
-  english: { name: "English", icon: "📚" }
+  maths: { name: "Mathematics", icon: "➗", subtitle: "Algebra, calculus, geometry" },
+  science: { name: "Science", icon: "🔬", subtitle: "Physics, chemistry, biology" },
+  english: { name: "English", icon: "📚", subtitle: "Grammar, literature, writing" }
 };
 
 export const data = {
