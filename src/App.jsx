@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
+import HomePage from './pages/HomePage';
+import SubjectsPage from './pages/SubjectsPage';
 import Subject from './pages/Subject';
 import ChapterPage from './pages/ChapterPage';
 import Header from './components/Header';
@@ -21,7 +22,8 @@ function App() {
     <BrowserRouter>
       <Header theme={theme} toggleTheme={toggleTheme} />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/subjects" element={<SubjectsPage />} />
         <Route path="/subject/:subject" element={<Subject />} />
         <Route path="/subject/:subject/:chapter" element={<ChapterPage />} />
       </Routes>

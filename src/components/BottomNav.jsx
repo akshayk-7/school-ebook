@@ -19,10 +19,10 @@ export default function BottomNav() {
         <span className="nav-icon">🔖</span>
         <span className="nav-label">Saved</span>
       </div>
-      <div className="nav-item">
+      {/* <div className="nav-item">
         <span className="nav-icon">👤</span>
         <span className="nav-label">Profile</span>
-      </div>
+      </div> */}
     </nav>
   );
 }
